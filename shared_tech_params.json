@@ -1,0 +1,18 @@
+{
+    "assets": {
+        "AAD": {
+            "name": "logo",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1640922525698x655297275370504400/logo.png"
+        }
+    },
+    "dependencies": {
+        "plugin_api_version": "4",
+        "use_jquery": false
+    },
+    "shared_keys": {
+        "AAH": {
+            "caption": "Landbot URL",
+            "type": "client_safe"
+        }
+    }
+}

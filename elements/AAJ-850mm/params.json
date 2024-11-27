@@ -1,0 +1,46 @@
+{
+    "add_hover_pressed": false,
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 100,
+        "width": 100
+    },
+    "display": "Landbot element",
+    "fields": {
+        "AAK": {
+            "caption": "Display mode",
+            "default_val": "Livechat",
+            "doc": "Select how to display the livechat when clicking on the small icon. (Livechat = Chat appear bottom right. Popup = Will open a popup windows in the middle of the screen.)",
+            "editor": "Dropdown",
+            "name": "mode",
+            "options": "Livechat,Popup,Embed",
+            "rank": 0
+        },
+        "AAL": {
+            "caption": "Improve SEO",
+            "default_val": false,
+            "doc": "The bot will not load until the user's cursor moves (desktop) or the screen is touched (mobile) [Does nothing when mode is Embed]",
+            "editor": "Checkbox",
+            "name": "improve_seo",
+            "rank": 1
+        },
+        "AAV": {
+            "caption": "Override Bot URL",
+            "doc": "(Optional) Enter the bot URL to use if different than the one of the plugin page.",
+            "editor": "DynamicValue",
+            "name": "override_bot_url",
+            "optional": true,
+            "rank": 2,
+            "value": "text"
+        }
+    },
+    "icon": "ion-chatbubbles",
+    "property_applications": {
+        "Background": true,
+        "Border": true,
+        "MinWidth": true,
+        "Padding": false,
+        "resizable": true
+    }
+}

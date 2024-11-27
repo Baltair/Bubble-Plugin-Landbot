@@ -1,0 +1,18 @@
+{
+    "categories": {
+        "0": "social network",
+        "1": "customer support",
+        "2": "mobile",
+        "3": "ecommerce",
+        "4": "containers"
+    },
+    "data_tracked": false,
+    "demo_page": "https://joapp-demo01.bubbleapps.io/version-test/landbot",
+    "description": "Easy way to add your Landbot livechat to your page.\nI've done it for myself, why not letting everyone benefit from it! :)\n\nDEMO : https://joapp-demo01.bubbleapps.io/version-test/landbot\n\nIf you have specific requests feel free to fill this form : https://joapp.ca/request\n",
+    "image": "//s3.amazonaws.com/appforest_uf/f1640922171788x292958444029780560/logo.png",
+    "license": "open_source",
+    "link": "https://landbot.grsm.io/rouq4d6rn1gt",
+    "name": "Landbot",
+    "plugin_instructions": "1 - Create a Landbot account\n\n2 - Create a bot\n\n3 - In your bot, go to the \"share\" tab, on this page you should see a code sample. Search inside where its written \"configUrl\". It should look something similar to this : 'https://chats.landbot.io/v3/YOUR_UNIQUE_CODE/index.json'\n\n5 - Copy the whole URL without the\nquotation marks and paste it in your plugin page. \n\nYou're ready to go!",
+    "sa_node_version": 18
+}

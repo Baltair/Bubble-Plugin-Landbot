@@ -1,0 +1,24 @@
+{
+    "caption": "Show Proactive",
+    "fields": {
+        "AAc": {
+            "caption": "First message",
+            "default_val": "Hi there!",
+            "doc": "For text : insert text value | For image: insert the URL.",
+            "editor": "DynamicValue",
+            "is_list": false,
+            "name": "first_message",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAd": {
+            "caption": "Additional messages",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "additional_messages",
+            "optional": true,
+            "rank": 1,
+            "value": "text"
+        }
+    }
+}
